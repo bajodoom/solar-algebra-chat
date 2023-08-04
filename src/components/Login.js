@@ -6,7 +6,7 @@ const Login = ({ setMemberUsername }) => {
   const [username, setUsername] = useState("");
 
   const handleLogin = () => {
-    setMemberUsername(username); // Postavite korisničko ime u App.js stanje
+    setMemberUsername(username); 
   };
 
   return (
@@ -28,36 +28,3 @@ const Login = ({ setMemberUsername }) => {
 };
 
 export default Login;
-
-/* import React, { useState } from "react";
-
-const Login = ({ onLogin }) => {
-  const [username, setUsername] = useState("");
-
-  const handleChange = (e) => {
-    setUsername(e.target.value);
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (username.trim() !== "") {
-      onLogin(username);
-    }
-  };
-
-  return (
-    <div className="Login">
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={username}
-          onChange={handleChange}
-          placeholder="Enter your username"
-        />
-        <button type="submit">Login</button>
-      </form>
-    </div>
-  );
-};
-
-export default Login; */
