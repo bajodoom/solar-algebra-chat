@@ -8,7 +8,7 @@ class App extends Component {
   state = {
     messages: [],
     member: {
-      id: "", // Unique client ID will be set when the connection is established
+      id: "", 
       username: "",
     },
   };
