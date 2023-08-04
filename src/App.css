@@ -1,0 +1,238 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: rgb(43, 37, 45);
+  
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+    overflow: visible;  
+  text-align: center;
+  color: rgb(215, 243, 244);
+  border-bottom: 1px solid;
+  background: linear-gradient(270deg, #347ad4, #032d39, #05416f);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 25s ease infinite;
+    -moz-animation: AnimationName 25s ease infinite;
+    -o-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 96% 0%
+    }
+  
+    50% {
+      background-position: 5% 100%
+    }
+  
+    100% {
+      background-position: 96% 0%
+    }
+  }
+  
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 96% 0%
+    }
+  
+    50% {
+      background-position: 5% 100%
+    }
+  
+    100% {
+      background-position: 96% 0%
+    }
+  }
+  
+  @-o-keyframes AnimationName {
+    0% {
+      background-position: 96% 0%
+    }
+  
+    50% {
+      background-position: 5% 100%
+    }
+  
+    100% {
+      background-position: 96% 0%
+    }
+  }
+  
+  @keyframes AnimationName {
+    0% {
+      background-position: 96% 0%
+    }
+  
+    50% {
+      background-position: 5% 100%
+    }
+  
+    100% {
+      background-position: 96% 0%
+    }
+  
+}
+
+.Messages-list {
+  padding: 20px;
+  max-width: 900px;
+  width: 100%;
+  margin: 20px auto;
+  list-style: none;
+  padding-left: 0;
+  flex-grow: 1;
+  overflow: auto;
+
+}
+
+.Messages-message {
+  display: flex;
+  margin-top: 20px;
+}
+
+.Messages-message.currentMember {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.Message-content {
+  display: inline-block;
+}
+
+.currentMember>.Message-content {
+  align-items: flex-end;
+}
+
+.Messages-message>.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 1rem -1rem;
+  padding-top: 25px;
+}
+
+.Message-content>.username {
+  display: block;
+  color: rgb(198, 197, 197);
+  font-size: 1rem;
+  padding-bottom: 4px;
+}
+
+.Message-content>.text {
+  padding: 10px;
+  max-width: 400px;
+  margin: 0;
+  border-radius: 12px;
+  background-color: rgb(188, 156, 40);
+  color: white;
+  display: inline-block;
+}
+
+.currentMember>.Message-content .text {
+  background-color: rgb(156, 58, 124);
+}
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  /*border: 2px solid rgb(5, 126, 147);*/
+  flex-grow: 1;
+  margin: 0 1rem -1rem;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 0 1rem -1rem;
+  background: linear-gradient(270deg, #347ad4, #032d39, #05416f);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 34s ease infinite;
+    -moz-animation: AnimationName 34s ease infinite;
+    -o-animation: AnimationName 34s ease infinite;
+    animation: AnimationName 34s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 96% 0%
+    }
+  
+    50% {
+      background-position: 5% 100%
+    }
+  
+    100% {
+      background-position: 96% 0%
+    }
+  }
+  
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 96% 0%
+    }
+  
+    50% {
+      background-position: 5% 100%
+    }
+  
+    100% {
+      background-position: 96% 0%
+    }
+  }
+  
+  @-o-keyframes AnimationName {
+    0% {
+      background-position: 96% 0%
+    }
+  
+    50% {
+      background-position: 5% 100%
+    }
+  
+    100% {
+      background-position: 96% 0%
+    }
+  }
+  
+  @keyframes AnimationName {
+    0% {
+      background-position: 96% 0%
+    }
+  
+    50% {
+      background-position: 5% 100%
+    }
+  
+    100% {
+      background-position: 96% 0%
+    }
+  }
+
+  .time{
+    color: rgb(198, 197, 197);
+      font-size: 0.8rem;
+    margin-top: 5px;
+  }
+
+  
