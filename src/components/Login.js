@@ -6,16 +6,16 @@ const Login = ({ setMemberUsername }) => {
   const [username, setUsername] = useState("");
 
   const handleLogin = () => {
-    setMemberUsername(username); 
+    setMemberUsername(username);
   };
 
   return (
     <Form className={styles.loginForm}>
       <Form.Group controlId="formUsername">
-        <Form.Label>Username</Form.Label>
+        <Form.Label className={styles.customLabel}>Username</Form.Label>
         <Form.Control
           type="text"
-          placeholder="Enter your username"
+          placeholder="Unesite korisničko ime"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
         />
