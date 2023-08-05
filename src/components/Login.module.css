@@ -9,9 +9,9 @@ body{
     height: 100vh;
     }
 
-  .customLabel{
-        color: white;
-    }
+.customLabel{
+    color: white;
+}
 
 button {
     align-items: center;
