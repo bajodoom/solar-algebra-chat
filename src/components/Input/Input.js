@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "./Input.css";
 
 const Input = ({ onSendMessage }) => {
   const [text, setText] = useState("");
@@ -34,7 +35,7 @@ const Input = ({ onSendMessage }) => {
   };
 
   return (
-    <div className="Input">
+    <div className="input">
       <form onSubmit={onSubmit}>
         <input
           onChange={onChange}

@@ -1,26 +1,30 @@
-.app {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
-  background-color: rgb(43, 37, 45);
-  
+body{
+    background-color: rgb(43, 37, 45);
 }
-.appHeader {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-    overflow: visible;  
-  text-align: center;
-  color: rgb(215, 243, 244);
-  border-bottom: 1px solid;
-  background: linear-gradient(270deg, #347ad4, #032d39, #05416f);
+.loginForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
+
+.customLabel{
+    color: white;
+}
+
+button {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid rgb(5, 126, 147);
+    background: linear-gradient(270deg, #347ad4, #032d39, #05416f);
     background-size: 600% 600%;
-    -webkit-animation: AnimationName 25s ease infinite;
-    -moz-animation: AnimationName 25s ease infinite;
-    -o-animation: AnimationName 25s ease infinite;
-    animation: AnimationName 25s ease infinite;
+    -webkit-animation: AnimationName 34s ease infinite;
+    -moz-animation: AnimationName 34s ease infinite;
+    -o-animation: AnimationName 34s ease infinite;
+    animation: AnimationName 34s ease infinite;
   }
   
   @-webkit-keyframes AnimationName {
@@ -77,5 +81,4 @@
     100% {
       background-position: 96% 0%
     }
-  
-}
+  }

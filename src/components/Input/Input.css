@@ -1,0 +1,88 @@
+input {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    /*border: 2px solid rgb(5, 126, 147);*/
+    flex-grow: 1;
+    margin: 0 1rem -1rem;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 0 1rem -1rem;
+    background: linear-gradient(270deg, #347ad4, #032d39, #05416f);
+      background-size: 600% 600%;
+      -webkit-animation: AnimationName 34s ease infinite;
+      -moz-animation: AnimationName 34s ease infinite;
+      -o-animation: AnimationName 34s ease infinite;
+      animation: AnimationName 34s ease infinite;
+    }
+    
+    @-webkit-keyframes AnimationName {
+      0% {
+        background-position: 96% 0%
+      }
+    
+      50% {
+        background-position: 5% 100%
+      }
+    
+      100% {
+        background-position: 96% 0%
+      }
+    }
+    
+    @-moz-keyframes AnimationName {
+      0% {
+        background-position: 96% 0%
+      }
+    
+      50% {
+        background-position: 5% 100%
+      }
+    
+      100% {
+        background-position: 96% 0%
+      }
+    }
+    
+    @-o-keyframes AnimationName {
+      0% {
+        background-position: 96% 0%
+      }
+    
+      50% {
+        background-position: 5% 100%
+      }
+    
+      100% {
+        background-position: 96% 0%
+      }
+    }
+    
+    @keyframes AnimationName {
+      0% {
+        background-position: 96% 0%
+      }
+    
+      50% {
+        background-position: 5% 100%
+      }
+    
+      100% {
+        background-position: 96% 0%
+      }
+    }
+  
+    .time{
+      color: rgb(198, 197, 197);
+        font-size: 0.8rem;
+      margin-top: 5px;
+    }
+
+
+

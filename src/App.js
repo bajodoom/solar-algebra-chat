@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
-import Messages from "./components/Messages";
-import Input from "./components/Input";
-import Login from "./components/Login";
+import Messages from "./components/Messages/Messages";
+import Input from "./components/Input/Input";
+import Login from "./components/Login/Login";
 
 class App extends Component {
   state = {
@@ -63,8 +63,8 @@ class App extends Component {
     }
 
     return (
-      <div className="App">
-        <div className="App-header">
+      <div className="app">
+        <div className="appHeader">
           <h1>Solar Chat App</h1>
         </div>
         <Messages

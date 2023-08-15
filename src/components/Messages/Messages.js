@@ -1,12 +1,13 @@
 import React from "react";
+import "./Messages.css";
 
 const Messages = ({ messages, currentMember }) => {
   const renderMessage = (message, idx) => {
     const { member, data: text, username, timestamp } = message;
     const messageFromMe = member.id === currentMember.id;
     const className = messageFromMe
-      ? "Messages-message currentMember"
-      : "Messages-message";
+      ? "messagesMessage currentMember"
+      : "messagesMessage";
 
    
     const dynamicText = username || "Unknown User";
@@ -23,7 +24,7 @@ const Messages = ({ messages, currentMember }) => {
         <span className="avatar">
           <img src={imageUrl} alt="Avatar" />
         </span>
-        <div className="Message-content">
+        <div className="messageContent">
           <div className="username">{dynamicText}</div>
           <div className="text">{text}</div>
           <div className="time">{formattedTime}</div>
@@ -33,7 +34,7 @@ const Messages = ({ messages, currentMember }) => {
   };
 
   return (
-    <ul className="Messages-list">
+    <ul className="messagesList">
       {messages.map((m, idx) => renderMessage(m, idx))}
     </ul>
   );
