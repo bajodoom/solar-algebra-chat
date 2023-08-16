@@ -2,6 +2,8 @@
 
 SOLAR CHAT APP (React.js + Scaledrone)
 
+GITHUB LINK: https://github.com/bajodoom/solar-algebra-chat.git
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
